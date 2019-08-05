@@ -15,7 +15,7 @@ namespace FactoryMethodPattern
     {
         public string Operation()
         {
-            return "{Result of ConcreteProduct2}";
+            return "{Result of ConcreteProduct2} + Hello Bro";
         }
     }
 }
