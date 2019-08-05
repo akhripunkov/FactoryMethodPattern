@@ -8,12 +8,12 @@ namespace FactoryMethodPattern
     {
         public void Main()
         {
-            Console.WriteLine("App: Launched woth the ConcreteCreator1.");
+            Console.WriteLine("App: Launched ConcreteCreator1.");
             ClientCode(new ConcreteCreator1());
 
             Console.WriteLine();
 
-            Console.WriteLine("App: Launched with the ConcreteCreator2.");
+            Console.WriteLine("App: Launched ConcreteCreator2.");
             ClientCode(new ConcreteCreator2());
         }
 

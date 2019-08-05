@@ -12,7 +12,7 @@ namespace FactoryMethodPattern
         {
             var product = FactoryMethod();
 
-            var result = "Creator: The same creator's code has just worked with "
+            var result = "Creator:  "
                 + product.Operation();
 
             return result;

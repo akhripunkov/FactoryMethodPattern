@@ -8,14 +8,15 @@ namespace FactoryMethodPattern
     {
         public string Operation()
         {
-            return "{Result of ConcreteProduct1}";
+            return "Product 1 result of operation";
         }
     }
+
     class ConcreteProduct2 : IProduct
     {
         public string Operation()
         {
-            return "{Result of ConcreteProduct2}";
+            return "Product 2 result of operation";
         }
     }
 }
